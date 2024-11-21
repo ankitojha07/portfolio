@@ -1,6 +1,6 @@
 import React from "react";
 
-const RightSide = () => {
+const Navbar = () => {
   return (
     <div className="flex flex-col gap-6">
       <ul className="nav flex flex-row gap-8 justify-end items-center font-bold text-xl">
@@ -12,4 +12,4 @@ const RightSide = () => {
   );
 };
 
-export default RightSide;
+export default Navbar;

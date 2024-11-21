@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Sidebar from "@/components/Sidebar";
+import Navbar from "@/components/Navbar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -33,7 +34,8 @@ export default function RootLayout({
           <div className="lg:col-span-4 rounded-xl col-span-12 bg-black border border-gray-900 p-8">
             <Sidebar />
           </div>
-          <div className="lg:col-span-8 rounded-xl col-span-12 bg-black border border-gray-900 p-8">
+          <div className="lg:col-span-8 rounded-xl col-span-12 bg-black border border-gray-900 p-8 flex flex-col gap-8">
+            <Navbar />
             {children}
           </div>
         </div>
