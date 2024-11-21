@@ -1,0 +1,19 @@
+{
+  "redirects": [
+    {
+      "source": "/resume",
+      "destination": "/Resume",
+      "permanent": true
+    },
+    {
+      "source": "/Project",
+      "destination": "/projects",
+      "permanent": true
+    },
+    {
+      "source": "/resume",
+      "destination": "/Resume",
+      "permanent": true
+    }
+  ]
+}
