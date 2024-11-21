@@ -24,7 +24,7 @@ const Sidebar = () => {
         className="rounded-full border border-gray-800"
       />
       <h1 className="font-bold text-2xl font-Doto">Ankit Ojha</h1>
-      <Tags title="Web Developer" icon={""} />
+      <Tags title="Full Stack Web Developer" icon={""} />
       <Link
         href="https://drive.google.com/file/d/1UrYRBVFh2BpxUClySi8xKdoLgnNS6ahT/view?usp=sharing"
         target="_blank"

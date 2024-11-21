@@ -7,7 +7,7 @@ interface TagsProps {
 
 export default function Tags({ title, icon }: TagsProps) {
   return (
-    <div className="flex items-center gap-2 bg-zinc-900 py-2 text-white rounded-full border px-4 text-md w-full border-teal-800 justify-center items-center">
+    <div className="flex gap-2 bg-zinc-900 py-2 text-white rounded-full border px-4 text-md w-full border-teal-800 justify-center items-center">
       <span className="text-teal-500">{icon}</span>
       <p className="text-center">{title}</p>
     </div>
