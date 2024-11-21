@@ -3,7 +3,6 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Sidebar from "@/components/Sidebar";
 import Navbar from "@/components/Navbar";
-import { link } from "fs";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -31,7 +30,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="grid grid-cols-12 gap-6 h-screen p-10 text-center">
+        <div className="grid grid-cols-12 gap-6 h-screen lg:p-10 text-center">
           <div className="lg:col-span-4 rounded-xl col-span-12 bg-black border border-gray-900 p-8">
             <Sidebar />
           </div>

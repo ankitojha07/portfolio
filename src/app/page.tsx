@@ -50,6 +50,8 @@ const Home = () => {
           />
         ))}
       </div>
+
+      <p className="font-bold text-start text-xl">More info?</p>
     </div>
   );
 };
