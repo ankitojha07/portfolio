@@ -7,7 +7,7 @@ const Navbar = () => {
   const pathname = usePathname();
   return (
     <div className="flex flex-col gap-6">
-      <ul className="nav flex flex-row gap-8 justify-end items-center font-bold text-xl">
+      <ul className="nav flex flex-row gap-8 justify-center md:justify-end items-center font-bold text-xl">
         <li>
           <Link href="/">About</Link>
           <div

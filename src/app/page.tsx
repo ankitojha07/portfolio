@@ -34,13 +34,11 @@ const Home = () => {
   return (
     <div className="flex flex-col justify-start gap-8">
       <p className="text-justify tracking-wide text-md font-sans">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-        similique, hic saepe et architecto quidem adipisci a vitae!
-        Necessitatibus facere nostrum reprehenderit blanditiis aliquam
-        voluptatum deserunt tempore asperiores ea numquam hic esse nihil dolorum
-        repellendus corrupti et vero, quo sapiente error laudantium vitae.
-        Distinctio quasi adipisci praesentium quam maxime error quia voluptates
-        ipsum deleniti fuga tempora cumque voluptatem, doloribus molestias
+        Dynamic and passionate professional dedicated to full-stack web
+        development and software engineering. Known for collaborative teamwork,
+        innovative problem-solving, and a commitment to delivering high-quality
+        solutions and driven by a desire to leverage technology to create
+        impactful and user-centric experiences.
       </p>
       <p className="font-bold text-start text-xl">What I am doing?</p>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

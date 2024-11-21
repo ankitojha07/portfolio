@@ -15,7 +15,7 @@ const Sidebar = () => {
         height={200}
         className="rounded-full border border-gray-800"
       />
-      <h1 className="font-bold text-2xl">Ankit Ojha</h1>
+      <h1 className="font-bold text-2xl font-Doto">Ankit Ojha</h1>
       <Tags title="Web Developer" />
       <Tags title="Download Resume" />
       <SocialIcons />

@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap");
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -10,6 +12,7 @@
 /* dark color on screen  */
 @media (prefers-color-scheme: dark) {
   :root {
+    font-family: "Doto";
     --background: #0c0c0c;
     --foreground: #ededed;
   }
