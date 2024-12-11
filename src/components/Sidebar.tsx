@@ -37,7 +37,7 @@ const Sidebar = () => {
       <div onClick={handleMailClick} className="w-full">
         <Button label="Email Me" />
       </div>
-      <Button label="Light UI" />
+      {/* <Button label="Light UI" /> */}
     </div>
   );
 };

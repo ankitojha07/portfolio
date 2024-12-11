@@ -4,6 +4,11 @@ import React from "react";
 const page = () => {
   const projectData = [
     {
+      image: "/images/projects/image-india-tech-salaries.png",
+      title: "India Tech Salaries - Responsive UI",
+      url: "https://india-tech-salaries.vercel.app/",
+    },
+    {
       image: "/images/projects/image-project-cartApp.png",
       title: "Full-stack e-commerce",
       url: "https://e-commerce-ankit.vercel.app/",
