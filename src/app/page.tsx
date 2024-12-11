@@ -52,6 +52,7 @@ const Home = () => {
       </div>
 
       <p className="font-bold text-start text-xl">More info?</p>
+      <p className="text-start ">Abhi ke liye bs itna hi.... 🫡</p>
     </div>
   );
 };
