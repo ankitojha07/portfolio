@@ -34,11 +34,17 @@ const Home = () => {
   return (
     <div className="flex flex-col justify-start gap-8">
       <p className="text-justify tracking-wide text-md font-sans">
-        Dynamic and passionate professional dedicated to full-stack web
-        development and software engineering. Known for collaborative teamwork,
-        innovative problem-solving, and a commitment to delivering high-quality
-        solutions and driven by a desire to leverage technology to create
-        impactful and user-centric experiences.
+        Innovative and results-driven Full Stack Developer with expertise in
+        MERN stack development, building scalable and user-friendly web
+        applications. Proficient in designing and implementing robust solutions
+        across frontend and backend, ensuring seamless user experiences and
+        operational efficiency. Hands-On experience in developing secure
+        authentication systems, dynamic APIs, and responsive UI components.
+        Adept at integrating modern technologies to solve real-world problems,
+        streamline workflows, and enhance application performance. Proven
+        ability to translate complex business requirements into scalable,
+        maintainable, and impactful digital products, driving success in diverse
+        projects.
       </p>
       <p className="font-bold text-start text-xl">What I am doing?</p>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -52,7 +58,29 @@ const Home = () => {
       </div>
 
       <p className="font-bold text-start text-xl">More info?</p>
-      <p className="text-start ">Abhi ke liye bs itna hi.... 🫡</p>
+      <div className="text-zinc-400 flex flex-col gap-2">
+        <p className="text-start ">Abhi ke liye bs itna hi.... 🫡</p>
+        <p className="text-start">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia,
+          quisquam!
+        </p>
+        <p className="text-start">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia,
+          quisquam!
+        </p>
+        <p className="text-start">
+          Kuch bhi add kr rha hu just to fill the gap....
+        </p>
+        <p className="text-start">
+          Upar jo profile summary hai wo bhi copy pase kiya hu 😂
+        </p>
+        <p className="text-start">
+          Ek baat aor: Koi job referral hoga to please btana jaroor : )
+        </p>
+        <p className="text-start">
+          Don`t forget to check the project page... wo jaroori hai
+        </p>
+      </div>
     </div>
   );
 };

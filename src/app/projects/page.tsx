@@ -9,6 +9,11 @@ const page = () => {
       url: "https://india-tech-salaries.vercel.app/",
     },
     {
+      image: "/images/projects/image-task-manager-drag.png",
+      title: "Task Manager - Drag & Drop",
+      url: "https://task-manager-drag.netlify.app/",
+    },
+    {
       image: "/images/projects/image-project-cartApp.png",
       title: "Full-stack e-commerce",
       url: "https://e-commerce-ankit.vercel.app/",
