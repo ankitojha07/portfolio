@@ -29,6 +29,11 @@ const page = () => {
       url: "https://grammarly-live.vercel.app/",
     },
     {
+      image: "/images/projects/image-disease-info.png",
+      title: "Disease Info",
+      url: "https://disease-info.netlify.app/",
+    },
+    {
       image: "/images/projects/image-gfg-lpu.png",
       title: "GeeksforGeeks-LPU Website",
       url: "https://geeksforgeeks-lpu.netlify.app/",
