@@ -17,7 +17,7 @@ const Resume = () => {
     { name: "Canva", percentage: 80 },
     { name: "Chatbot Development", percentage: 70 },
     { name: "Integreations", percentage: 80 },
-    { name: "Azure", percentage: 60 },
+    { name: "AWS Cloud", percentage: 60 },
   ];
   return (
     <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
@@ -64,7 +64,6 @@ const Resume = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
 };

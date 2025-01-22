@@ -9,9 +9,9 @@ const page = () => {
       url: "https://india-tech-salaries.vercel.app/",
     },
     {
-      image: "/images/projects/image-task-manager-drag.png",
-      title: "Task Manager - Drag & Drop",
-      url: "https://task-manager-drag.netlify.app/",
+      image: "/images/projects/modern-agency.png",
+      title: "Modern Agency Website - Next & Tailwind",
+      url: "https://codewithcoffee-saas.vercel.app/",
     },
     {
       image: "/images/projects/image-project-cartApp.png",
@@ -27,6 +27,11 @@ const page = () => {
       image: "/images/projects/image-gramarrly-live.png",
       title: "Grammarly Live",
       url: "https://grammarly-live.vercel.app/",
+    },
+    {
+      image: "/images/projects/image-task-manager-drag.png",
+      title: "Task Manager - Drag & Drop",
+      url: "https://task-manager-drag.netlify.app/",
     },
     {
       image: "/images/projects/image-disease-info.png",

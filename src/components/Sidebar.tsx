@@ -26,7 +26,7 @@ const Sidebar = () => {
       <h1 className="font-bold text-2xl font-Doto">Ankit Ojha</h1>
       <Tags title="Full-Stack Web Developer" icon={""} />
       <Link
-        href="https://drive.google.com/file/d/1UrYRBVFh2BpxUClySi8xKdoLgnNS6ahT/view?usp=sharing"
+        href="https://drive.google.com/file/d/1hBChyePew1lqdGUDrLzlJRT0fB_HbqN6/view?usp=sharing"
         target="_blank"
         className="w-full"
       >
