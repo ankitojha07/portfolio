@@ -12,7 +12,7 @@ const ContactCard = () => {
         ankitojha1409@gmail.com
       </p>
       <p className="text-sm leading-3 tracking-wide font-thin">
-        8700091952 / 9319278207
+        +91-8700091952
       </p>
     </div>
   );
