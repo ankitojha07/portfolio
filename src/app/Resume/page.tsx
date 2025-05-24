@@ -1,4 +1,5 @@
 import CompanyExperience from "@/components/CompanyExperience";
+import EducationComponent from "@/components/EducationComponent";
 import ProgressBar from "@/components/ProgressBar";
 import React from "react";
 
@@ -25,10 +26,8 @@ const Resume = () => {
       {/* Left Section */}
       <section className="grid col-span-1 md:col-span-6 text-start gap-8">
         <div className="flex flex-col gap-2">
-          <p className="font-bold text-lg">Education</p>
-          <p className="font-semibold text-lg">Computer Science Engineering</p>
-          <p>Lovely Professional University, (2021-2024)</p>
-          <p>Completed my bachelor`s in technology.</p>
+          <p className="font-bold text-lg text-gray-300">Education</p>
+          <EducationComponent />
         </div>
         <div className="flex flex-col gap-4">
           <p className="font-bold text-lg">Languages and Frameworks</p>
@@ -54,7 +53,7 @@ const Resume = () => {
           {/* exp card end  */}
 
           {/* Experience card start */}
-          
+
           {/* exp card end  */}
         </div>
         <div className="flex flex-col gap-4">

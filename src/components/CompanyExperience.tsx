@@ -5,7 +5,7 @@ const CompanyExperience = () => {
     <div className="flex flex-col gap-4">
       <div className="intern-exp flex flex-col gap-2">
         <div className="company-details">
-          <p className="font-bold text-lg">
+          <p className="font-bold text-lg text-gray-300">
             Frontend Developer <span>|</span>{" "}
             <span className="font-bold text-sm text-blue-500">
               Leena AI Inc.
@@ -39,7 +39,7 @@ const CompanyExperience = () => {
 
       <div className="intern-exp flex flex-col gap-2">
         <div className="company-details">
-          <p className="font-bold text-lg">
+          <p className="font-bold text-lg text-gray-300">
             Intern <span>|</span>{" "}
             <span className="font-bold text-sm text-blue-500">
               Leena AI Inc.
