@@ -130,7 +130,9 @@ const Home = () => {
       </section>
 
       <section aria-label="Photos Section" className="my-4">
-        <h2 className="text-2xl font-semibold mb-4 text-start">📷 Photos</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-start">
+          📷 Few Random Clics
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <Image
             src="/images/photography/1.jpg"
