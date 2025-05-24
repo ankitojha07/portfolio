@@ -5,31 +5,40 @@ import Image from "next/image";
 const Home = () => {
   const tasks = [
     {
+      icon: "🚀",
       title: "Frontend Development",
       description:
-        "I can build a beautiful and scalable SPA using HTML, CSS, and React JS",
+        "Crafting beautiful and scalable Single Page Applications (SPAs) using HTML, CSS, and React.js with a focus on performance and responsiveness.",
     },
     {
+      icon: "🔧 ",
       title: "Backend Development",
-      description: "I can design and maintain APIs using Node.js and Express",
-    },
-    {
-      title: "API Development",
       description:
-        "I can develop robust REST APIs using Django REST API and Node API",
+        "Designing and maintaining efficient, secure APIs using Node.js and Express, with a strong emphasis on clean architecture and scalability.",
     },
     {
-      title: "Competitive Coder",
-      description: "A daily problem solver in HackerRank and LeetCode",
+      icon: "🔗",
+      title: " API Development",
+      description:
+        "Building robust and maintainable RESTful APIs using Django REST Framework and Node.js, tailored for high-performance applications.",
     },
     {
-      title: "UI/UX designer",
-      description: "Stunning user interface designer using Figma and Framer",
+      icon: "🧠",
+      title: "Competitive Programming",
+      description:
+        "Consistent problem solver on HackerRank and LeetCode, sharpening algorithmic thinking and coding efficiency through daily practice.",
     },
     {
+      icon: "🎨",
+      title: "UI/UX Design",
+      description:
+        "Designing stunning, user-centric interfaces using Figma and Framer, blending aesthetics with usability for seamless user experiences.",
+    },
+    {
+      icon: "💡",
       title: "Solution Engineering",
       description:
-        "I can design and implement solutions for complex problems using modern technologies",
+        "Engineering practical and scalable solutions for complex business problems using modern tech stacks and best practices in software development.",
     },
   ];
   return (
@@ -50,10 +59,11 @@ const Home = () => {
         collaborating with cross-functional teams to deliver robust and
         efficient digital experiences
       </p>
-      <p className="font-bold text-start text-xl">What I am doing?</p>
+      <p className="font-bold text-start text-xl">What I do?</p>
       <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {tasks.map((task, index) => (
           <TaskCard
+            icon={task.icon}
             key={index}
             title={task.title}
             description={task.description}
