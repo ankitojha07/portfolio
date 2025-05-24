@@ -101,7 +101,7 @@ const Home = () => {
             strategy games.
           </li>
           <li>
-            📚 <strong>Reading Books</strong> – Whether it's fiction,
+            📚 <strong>Reading Books</strong> – Whether it`s fiction,
             psychology, or tech, I love reading.
           </li>
           <li>
@@ -109,7 +109,7 @@ const Home = () => {
             moments fuels my creativity.
           </li>
           <li>
-            🏏 <strong>Watching Cricket</strong> – I'm a passionate cricket fan
+            🏏 <strong>Watching Cricket</strong> – I`m a passionate cricket fan
             and rarely miss a big match.
           </li>
           <li>
