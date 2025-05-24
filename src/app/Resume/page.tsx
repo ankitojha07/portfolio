@@ -27,6 +27,22 @@ const Resume = () => {
   return (
     <main className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
       {/* Left Section */}
+
+      <section className="grid col-span-1 md:col-span-6 text-start gap-8">
+        <div className="flex flex-col gap-2">
+          <p className="font-semibold text-lg">Experience</p>
+
+          {/* Experience card start */}
+          <CompanyExperience />
+          {/* exp card end  */}
+
+          {/* Experience card start */}
+
+          {/* exp card end  */}
+        </div>
+      </section>
+
+      {/* Right Section */}
       <section className="grid col-span-1 md:col-span-6 text-start gap-8">
         <div className="flex flex-col gap-2">
           <p className="font-bold text-lg text-gray-300">Education</p>
@@ -59,21 +75,6 @@ const Resume = () => {
               />
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Right Section */}
-      <section className="grid col-span-1 md:col-span-6 text-start gap-8">
-        <div className="flex flex-col gap-2">
-          <p className="font-semibold text-lg">Experience</p>
-
-          {/* Experience card start */}
-          <CompanyExperience />
-          {/* exp card end  */}
-
-          {/* Experience card start */}
-
-          {/* exp card end  */}
         </div>
       </section>
     </main>
