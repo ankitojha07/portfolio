@@ -7,14 +7,14 @@ interface ProgressBarProps {
 
 const ProgressBar: React.FC<ProgressBarProps> = ({ name, percentage }) => {
   return (
-    <div className="w-full flex flex-col gap-2">
+    <div className="w-full flex flex-col gap-2 text-gray-500">
       <div className="flex justify-between items-center">
-        <p className="font-medium">{name}</p>
+        <p className="font-medium ">{name}</p>
         <p className="font-medium">{percentage}%</p>
       </div>
-      <div className="w-full bg-gray-300 rounded-full h-6">
+      <div className="w-full bg-gray-700 rounded-full h-4">
         <div
-          className="bg-gradient-to-r from-teal-600 to-teal-400 h-6 rounded-full"
+          className="bg-gradient-to-r from-teal-600 to-teal-400 h-4 rounded-full "
           style={{ width: `${percentage}%` }}
         ></div>
       </div>

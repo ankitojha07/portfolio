@@ -5,21 +5,24 @@ import React from "react";
 
 const Resume = () => {
   const lang_frameworks = [
-    { name: "Typescript", percentage: 70 },
-    { name: "C++", percentage: 60 },
-    { name: "Python", percentage: 50 },
-    { name: "CSS", percentage: 90 },
+    { name: "JavaScript", percentage: 90 },
     { name: "React JS", percentage: 90 },
-    { name: "Next JS", percentage: 40 },
-    { name: "Node.js", percentage: 70 },
+    { name: "Next JS", percentage: 70 },
+    { name: "Node.js", percentage: 90 },
+    { name: "Typescript", percentage: 70 },
+    { name: "CSS3", percentage: 90 },
+    { name: "HTML5", percentage: 90 },
+    { name: "C++", percentage: 90 },
+    { name: "Python", percentage: 90 },
   ];
 
   const skills = [
-    { name: "JavaScript", percentage: 90 },
-    { name: "Canva", percentage: 80 },
-    { name: "Chatbot Development", percentage: 70 },
+    { name: "AWS Cloud", percentage: 50 },
+    { name: "Chat GPT", percentage: 99 },
+    { name: "Kore.AI", percentage: 70 },
+    { name: "Figma", percentage: 100 },
+    { name: "Canva", percentage: 100 },
     { name: "Integreations", percentage: 80 },
-    { name: "AWS Cloud", percentage: 60 },
   ];
   return (
     <main className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
@@ -33,6 +36,22 @@ const Resume = () => {
           <p className="font-bold text-lg">Languages and Frameworks</p>
           <div className="flex flex-col gap-4">
             {lang_frameworks.map((skill, index) => (
+              <ProgressBar
+                key={index}
+                name={skill.name}
+                percentage={skill.percentage}
+              />
+            ))}
+          </div>
+        </div>
+        <div className="flex flex-col gap-4">
+          <p className="font-bold text-lg text-gray-300">Tools & Softwares</p>
+          <p className="text-gray-500">
+            These are the tool on which I am confident enough to design or build
+            something.
+          </p>
+          <div className="flex flex-col gap-4">
+            {skills.map((skill, index) => (
               <ProgressBar
                 key={index}
                 name={skill.name}
@@ -55,18 +74,6 @@ const Resume = () => {
           {/* Experience card start */}
 
           {/* exp card end  */}
-        </div>
-        <div className="flex flex-col gap-4">
-          <p className="font-bold text-lg">Tools & Softwares</p>
-          <div className="flex flex-col gap-4">
-            {skills.map((skill, index) => (
-              <ProgressBar
-                key={index}
-                name={skill.name}
-                percentage={skill.percentage}
-              />
-            ))}
-          </div>
         </div>
       </section>
     </main>
