@@ -6,7 +6,7 @@ const EducationComponent = () => {
       <div className="company-details">
         <p className="font-bold text-lg text-gray-300">
           B.Tech | Information Technology <span>-</span>{" "}
-          <span className="font-bold text-sm text-orange-500">
+          <span className="font-bold text-sm text-orange-300">
             Lovely Professional University
           </span>
         </p>
@@ -19,7 +19,7 @@ const EducationComponent = () => {
       <div className="company-details">
         <p className="font-bold text-lg text-gray-300">
           Diploma | Computer Science and Engineering <span>-</span>{" "}
-          <span className="font-bold text-sm text-orange-500">
+          <span className="font-bold text-sm text-orange-300">
             Lovely Professional University
           </span>
         </p>

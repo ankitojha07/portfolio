@@ -1,5 +1,6 @@
 import TaskCard from "@/components/TaskCard";
 import React from "react";
+import Image from "next/image";
 
 const Home = () => {
   const tasks = [
@@ -26,13 +27,13 @@ const Home = () => {
       description: "Stunning user interface designer using Figma and Framer",
     },
     {
-      title: "Whatever",
+      title: "Solution Engineering",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+        "I can design and implement solutions for complex problems using modern technologies",
     },
   ];
   return (
-    <div className="flex flex-col justify-start gap-8">
+    <main className="flex flex-col justify-start gap-4 text-gray-300">
       <p className="text-justify tracking-wide text-md font-sans">
         Forward-thinking Frontend Web Developer proficient in{" "}
         <span className="text-teal-600 font-bold italic">
@@ -50,7 +51,7 @@ const Home = () => {
         efficient digital experiences
       </p>
       <p className="font-bold text-start text-xl">What I am doing?</p>
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {tasks.map((task, index) => (
           <TaskCard
             key={index}
@@ -58,28 +59,149 @@ const Home = () => {
             description={task.description}
           />
         ))}
-      </div>
+      </section>
 
-      <p className="font-bold text-start text-xl">More info?</p>
-      <div className="text-zinc-400 flex flex-col gap-2">
-        <p className="text-start ">that`s it 🫡</p>
-        <p className="text-start">Feel free to reach out for anything : )</p>
-        {/*
-        <p className="text-start">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia,
-          quisquam!
-        </p>
-        <p className="text-start">
-          Kuch bhi add kr rha hu just to fill the gap....
-        </p>
-        <p className="text-start">
-          Ek baat aor: Koi job referral hoga to please btana jaroor : )
-        </p>
-        <p className="text-start">
-          Don`t forget to check the project page... wo jaroori hai
-        </p> */}
-      </div>
-    </div>
+      <section className="text-start my-4">
+        <h2 className="text-xl font-bold mb-4">🛠️ Tech Stack</h2>
+        <ul className="list-disc ml-6 space-y-1">
+          <li>Frontend: React, Tailwind CSS, JavaScript, HTML, CSS</li>
+          <li>Backend: Node.js, Express, MongoDB</li>
+          <li>DevOps: Docker, GitHub Actions</li>
+          <li>Tools: VS Code, Postman, Figma, Git</li>
+        </ul>
+      </section>
+
+      <section className="my-4">
+        <h2 className="text-2xl font-bold mb-4 text-start">
+          📚 Currently Learning
+        </h2>
+        <ul className="list-disc text-start ml-6 space-y-1">
+          <li>Advanced React patterns</li>
+          <li>AWS (SAA-C03 Certification)</li>
+          <li>System Design Basics</li>
+          <li>Open Source Contribution</li>
+        </ul>
+      </section>
+
+      <section className="my-4">
+        <h2 className="text-2xl font-bold mb-4 text-start">
+          🌟 Life Outside Work
+        </h2>
+        <ul className="list-disc text-start ml-6 space-y-2">
+          <li>
+            🏍️ <strong>Bike Riding</strong> – I love hitting the road and
+            exploring scenic routes.
+          </li>
+          <li>
+            🏔️ <strong>Mountain Travel</strong> – Reconnecting with nature helps
+            me reset and recharge.
+          </li>
+          <li>
+            🎮 <strong>Gaming</strong> – I enjoy immersive story-driven and
+            strategy games.
+          </li>
+          <li>
+            📚 <strong>Reading Books</strong> – Whether it's fiction,
+            psychology, or tech, I love reading.
+          </li>
+          <li>
+            📷 <strong>Photography</strong> – Capturing the beauty of places and
+            moments fuels my creativity.
+          </li>
+          <li>
+            🏏 <strong>Watching Cricket</strong> – I'm a passionate cricket fan
+            and rarely miss a big match.
+          </li>
+          <li>
+            👨‍👩‍👧‍👦 <strong>Family & Friends</strong> – I deeply value time spent
+            with loved ones.
+          </li>
+        </ul>
+      </section>
+
+      <section aria-label="Photos Section" className="my-4">
+        <h2 className="text-2xl font-semibold mb-4 text-start">📷 Photos</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <Image
+            src="/images/photography/1.jpg"
+            alt="Bike Riding"
+            width={200}
+            height={200}
+            className="rounded-xl shadow-md object-cover h-48 w-full"
+          />
+          <Image
+            src="/images/photography/2.jpg"
+            alt="Mountain Travel"
+            width={200}
+            height={200}
+            className="rounded-xl shadow-md object-cover h-48 w-full"
+          />
+          <Image
+            src="/images/photography/3.jpg"
+            alt="Gaming"
+            width={200}
+            height={200}
+            className="rounded-xl shadow-md object-cover h-48 w-full"
+          />
+          <Image
+            src="/images/photography/4.jpg"
+            alt="Reading Books"
+            width={200}
+            height={200}
+            className="rounded-xl shadow-md object-cover h-48 w-full"
+          />
+          <Image
+            src="/images/photography/5.jpg"
+            alt="Watching Cricket"
+            width={200}
+            height={200}
+            className="rounded-xl shadow-md object-cover h-48 w-full"
+          />
+          <Image
+            src="/images/photography/6.jpg"
+            alt="6"
+            width={200}
+            height={200}
+            className="rounded-xl shadow-md object-cover h-48 w-full"
+          />
+          <Image
+            src="/images/photography/7.jpg"
+            alt="6"
+            width={200}
+            height={200}
+            className="rounded-xl shadow-md object-cover h-48 w-full"
+          />
+          <Image
+            src="/images/photography/8.jpg"
+            alt="6"
+            width={200}
+            height={200}
+            className="rounded-xl shadow-md object-cover h-48 w-full"
+          />
+          <Image
+            src="/images/photography/9.jpg"
+            alt="6"
+            width={200}
+            height={200}
+            className="rounded-xl shadow-md object-cover h-48 w-full"
+          />
+          <Image
+            src="/images/photography/10.jpg"
+            alt="6"
+            width={200}
+            height={200}
+            className="rounded-xl shadow-md object-cover h-48 w-full"
+          />
+          <Image
+            src="/images/photography/11.jpg"
+            alt="6"
+            width={200}
+            height={200}
+            className="rounded-xl shadow-md object-cover h-48 w-full"
+          />
+        </div>
+      </section>
+    </main>
   );
 };
 

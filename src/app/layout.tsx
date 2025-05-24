@@ -34,7 +34,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="grid grid-cols-12 gap-6 h-screen lg:p-10 text-center">
+        <div className="grid grid-cols-12 gap-6 h-screen lg:p-10 text-center text-gray-300 font-sans">
           <div className="lg:col-span-4 rounded-xl col-span-12 bg-black border border-gray-900 p-8">
             <Sidebar />
           </div>
