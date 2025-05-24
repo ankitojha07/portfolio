@@ -171,20 +171,7 @@ const Home = () => {
             height={200}
             className="rounded-xl shadow-md object-cover h-48 w-full"
           />
-          <Image
-            src="/images/photography/8.jpg"
-            alt="6"
-            width={200}
-            height={200}
-            className="rounded-xl shadow-md object-cover h-48 w-full"
-          />
-          <Image
-            src="/images/photography/9.jpg"
-            alt="6"
-            width={200}
-            height={200}
-            className="rounded-xl shadow-md object-cover h-48 w-full"
-          />
+
           <Image
             src="/images/photography/10.jpg"
             alt="6"
