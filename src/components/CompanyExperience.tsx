@@ -8,7 +8,9 @@ const CompanyExperience = () => {
           <p className="font-bold text-lg text-gray-300">
             Frontend Developer <span>|</span>{" "}
             <span className="font-bold text-sm text-blue-500">
-              Leena AI Inc.
+              <a href="https://www.leena.ai/" target="_blank">
+                Leena AI Inc.
+              </a>
             </span>
           </p>
           <div className="location flex flex-row gap-2 justify-between items-center ">
@@ -42,7 +44,9 @@ const CompanyExperience = () => {
           <p className="font-bold text-lg text-gray-300">
             Intern <span>|</span>{" "}
             <span className="font-bold text-sm text-blue-500">
-              Leena AI Inc.
+              <a href="https://www.leena.ai/" target="_blank">
+                Leena AI Inc.
+              </a>
             </span>
           </p>
           <div className="location flex flex-row gap-2 justify-between items-center ">
