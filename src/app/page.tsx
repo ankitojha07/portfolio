@@ -87,7 +87,8 @@ const Home = () => {
         </h2>
         <ul className="list-disc text-start ml-6 space-y-1">
           <li>Advanced React patterns</li>
-          <li>AWS (SAA-C03 Certification)</li>
+          <li>Data Structures and Algorithms</li>
+          {/* <li>AWS (SAA-C03 Certification)</li> */}
           <li>System Design Basics</li>
           <li>Open Source Contribution</li>
         </ul>
