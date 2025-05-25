@@ -34,14 +34,18 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="grid grid-cols-12 gap-6 h-screen lg:p-10 text-center text-gray-300 font-sans">
-          <div className="lg:col-span-4 rounded-xl col-span-12 bg-black border border-gray-900 p-8">
+        <div className="lg:flex lg:h-screen bg-black text-gray-300 font-sans">
+          {/* Fixed Sidebar on Large Screens */}
+          <aside className="w-full lg:w-1/4 border-r border-gray-900 p-6 lg:fixed lg:top-0 lg:left-0 lg:h-screen overflow-y-auto z-10 bg-black">
             <Sidebar />
-          </div>
-          <div className="lg:col-span-8 rounded-xl col-span-12 bg-black border border-gray-900 p-8 flex flex-col gap-8">
+          </aside>
+
+          {/* Main Content Area Scrollable */}
+          <main className="w-full lg:w-3/4 lg:ml-[25%] p-8 h-full lg:h-screen">
             <Navbar />
+            <div className="h-10 text-3xl"></div>
             {children}
-          </div>
+          </main>
         </div>
       </body>
     </html>
