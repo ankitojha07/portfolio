@@ -15,30 +15,32 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center gap-5">
-      <Image
-        src="/images/Ankit-ojha.jpg"
-        alt="Ankit Ojha image"
-        width={200}
-        height={200}
-        className="rounded-full border border-gray-800"
-      />
-      <h1 className="font-bold text-2xl font-Doto">Ankit Ojha</h1>
-      <Tags title="Full-Stack Web Developer" icon={""} />
-      <Link
-        href="https://drive.google.com/file/d/1LcNJrA7-XtpRLrCHmkWIoOE01AQHyHRq/view?usp=sharing"
-        target="_blank"
-        className="w-full"
-      >
-        <Tags title="Download Resume" icon={<IoMdDownload />} />
-      </Link>
-      <SocialIcons />
-      <ContactCard />
-      <div onClick={handleMailClick} className="w-full">
-        <Button label="Email Me" />
-      </div>
-      {/* <Button label="Light UI" /> */}
-    </div>
+    <main className="flex w-full overflow-hidden justify-center items-center h-screen">
+      <section className="flex flex-col justify-center items-center gap-4">
+        <Image
+          src="/images/Ankit-ojha.jpg"
+          alt="Ankit Ojha image"
+          width={380}
+          height={300}
+          className="rounded-full border border-gray-800"
+        />
+        <h1 className="font-bold text-3xl font-Doto">Ankit Ojha</h1>
+        <Tags title="Full-Stack Web Developer" icon={""} />
+        <Link
+          href="https://drive.google.com/file/d/1LcNJrA7-XtpRLrCHmkWIoOE01AQHyHRq/view?usp=sharing"
+          target="_blank"
+          className="w-full"
+        >
+          <Tags title="Download Resume" icon={<IoMdDownload />} />
+        </Link>
+        <SocialIcons />
+        <ContactCard />
+        <div onClick={handleMailClick} className="w-full">
+          <Button label="Email Me" />
+        </div>
+        {/* <Button label="Light UI" /> */}
+      </section>
+    </main>
   );
 };
 

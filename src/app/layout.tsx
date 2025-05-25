@@ -36,7 +36,7 @@ export default function RootLayout({
       >
         <div className="lg:flex lg:h-screen bg-black text-gray-300 font-sans">
           {/* Fixed Sidebar on Large Screens */}
-          <aside className="w-full lg:w-1/4 border-r border-gray-900 p-6 lg:fixed lg:top-0 lg:left-0 lg:h-screen overflow-y-auto z-10 bg-black">
+          <aside className="w-full lg:w-1/4 border-r border-gray-900 lg:fixed lg:top-0 lg:left-0  bg-black">
             <Sidebar />
           </aside>
 
