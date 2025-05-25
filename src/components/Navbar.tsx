@@ -36,6 +36,24 @@ const Navbar = () => {
             } `}
           ></div>
         </li>
+        <li>
+          <Link href="/blogs">Blogs</Link>
+          <div
+            className={`${
+              pathname === "/blogs" ? "h-1 bg-teal-600 rounded-full" : " hidden"
+            } `}
+          ></div>
+        </li>
+        <li>
+          <Link href="/testimonials">Testimonials </Link>
+          <div
+            className={`${
+              pathname === "/testimonials"
+                ? "h-1 bg-teal-600 rounded-full"
+                : " hidden"
+            } `}
+          ></div>
+        </li>
       </ul>
     </main>
   );

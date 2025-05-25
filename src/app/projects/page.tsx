@@ -86,7 +86,7 @@ const page = () => {
   ];
 
   return (
-    <div className="w-full grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    <main className="w-full flex flex-wrap gap-6 justify-between">
       {projectData.map((data, key) => (
         <ProjectCard
           key={key}
@@ -95,7 +95,7 @@ const page = () => {
           url={data.url}
         />
       ))}
-    </div>
+    </main>
   );
 };
 
