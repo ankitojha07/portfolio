@@ -1,12 +1,26 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const pathname = usePathname();
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 10);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <main className="flex flex-col gap-6 p-4 lg:fixed lg:bg-black lg:top-0 lg:right-0 lg:z-10">
+    <nav
+      className={`lg:fixed w-full top-0 left-0 flex flex-col gap-6 p-4 transition-all duration-300 ${
+        scrolled ? "bg-black/60 backdrop-blur-md" : "bg-black"
+      }`}
+    >
       <ul className="nav flex flex-row gap-4 md:gap-8 justify-center lg:justify-end items-center font-bold md:text-xl">
         <li>
           <Link href="/">Home</Link>
@@ -45,7 +59,7 @@ const Navbar = () => {
           ></div>
         </li>
         <li>
-          <Link href="/testimonials">Testimonials </Link>
+          <Link href="/testimonials">Testimonials</Link>
           <div
             className={`${
               pathname === "/testimonials"
@@ -55,7 +69,7 @@ const Navbar = () => {
           ></div>
         </li>
       </ul>
-    </main>
+    </nav>
   );
 };
 

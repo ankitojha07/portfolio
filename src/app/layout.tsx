@@ -41,10 +41,9 @@ export default function RootLayout({
           </aside>
 
           {/* Main Content Area Scrollable */}
-          <main className="w-full lg:w-3/4 lg:ml-[25%] p-8 h-full lg:h-screen">
+          <main className="w-full lg:w-3/4 lg:ml-[25%] p-8 h-full lg:h-screen relative">
             <Navbar />
-            <div className="h-10"></div>
-            {children}
+            <div className="lg:pt-10">{children}</div>
           </main>
         </div>
       </body>
