@@ -17,7 +17,7 @@ const Sidebar = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-5">
       <Image
-        src="/images/Ankit-ojha.png"
+        src="/images/Ankit-ojha.jpg"
         alt="Ankit Ojha image"
         width={200}
         height={200}
