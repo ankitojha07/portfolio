@@ -36,14 +36,14 @@ export default function RootLayout({
       >
         <div className="lg:flex lg:h-screen bg-black text-gray-300 font-sans">
           {/* Fixed Sidebar on Large Screens */}
-          <aside className="w-full lg:w-1/4 border-r border-gray-900 lg:fixed lg:top-0 lg:left-0  bg-black">
+          <aside className="w-full lg:w-1/4 border-r border-gray-900 lg:fixed lg:top-0 lg:left-0 bg-black">
             <Sidebar />
           </aside>
 
           {/* Main Content Area Scrollable */}
           <main className="w-full lg:w-3/4 lg:ml-[25%] p-8 h-full lg:h-screen relative">
             <Navbar />
-            <div className="lg:pt-10">{children}</div>
+            <div className="pt-8">{children}</div>
           </main>
         </div>
       </body>

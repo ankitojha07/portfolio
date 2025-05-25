@@ -17,11 +17,14 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`lg:fixed w-full top-0 left-0 flex flex-col gap-6 p-4 transition-all duration-300 ${
-        scrolled ? "bg-black/60 backdrop-blur-md" : "bg-black"
-      }`}
+      className={`
+    sticky top-0 z-20
+    w-full
+    flex flex-col gap-6 p-4 transition-all duration-300
+    ${scrolled ? "bg-black/60 backdrop-blur-md" : "bg-black"}
+  `}
     >
-      <ul className="nav flex flex-row gap-4 md:gap-8 justify-center lg:justify-end items-center font-bold md:text-xl">
+      <ul className="nav flex flex-row gap-2 md:gap-4 lg:gap-8 justify-center lg:justify-end items-center font-semibold md:text-xl text-sm flex-nowrap whitespace-nowrap overflow-x-auto">
         <li>
           <Link href="/">Home</Link>
           <div
