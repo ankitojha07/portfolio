@@ -1,15 +1,8 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
-
 import { detailedBlog } from "../../../data/detailedBlog";
 
-type BlogDetailPageProps = {
-  params: {
-    slug: string;
-  };
-};
-
-export default function BlogDetail({ params }: BlogDetailPageProps) {
+export default function BlogDetail({ params }: { params: { slug: string } }) {
   const blog = detailedBlog.find((b) => b.slug === params.slug);
 
   if (!blog) return notFound();
