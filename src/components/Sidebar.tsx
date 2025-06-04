@@ -20,8 +20,8 @@ const Sidebar = () => {
         <Image
           src="/images/Ankit-ojha.jpg"
           alt="Ankit Ojha image"
-          width={380}
-          height={300}
+          width={200}
+          height={200}
           className="rounded-full border border-gray-800"
         />
         <h1 className="font-bold text-3xl font-Doto">Ankit Ojha</h1>
