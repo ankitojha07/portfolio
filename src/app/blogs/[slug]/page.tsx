@@ -19,7 +19,6 @@ export default function BlogDetail({ params }: { params: { slug: string } }) {
       />
       <span className="text-xs text-gray-400">{blog.date}</span>
       <p className="mt-6 text-lg">{blog.summary}</p>
-
       {blog.comingSoon && (
         <div className="mt-4 px-2 py-1 bg-yellow-100 text-yellow-700 rounded text-xs inline-block">
           Coming Soon
