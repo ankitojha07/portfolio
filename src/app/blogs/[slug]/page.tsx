@@ -3,7 +3,13 @@ import Image from "next/image";
 
 import { detailedBlog } from "../../../data/detailedBlog";
 
-export default function BlogDetail({ params }: { params: { slug: string } }) {
+type BlogDetailPageProps = {
+  params: {
+    slug: string;
+  };
+};
+
+export default function BlogDetail({ params }: BlogDetailPageProps) {
   const blog = detailedBlog.find((b) => b.slug === params.slug);
 
   if (!blog) return notFound();

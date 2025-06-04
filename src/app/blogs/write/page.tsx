@@ -1,9 +1,9 @@
 "use client";
 import { useState } from "react";
 import { useSearchParams } from "next/navigation";
-import { blogs } from "@/data/blog"; // Adjust path if needed
+import { blogs } from "@/data/blog";
 
-const SECRET = "#x2d30"; // Change this to your secret
+const SECRET = "#x2d30";
 
 export default function WriteBlog() {
   const params = useSearchParams();
