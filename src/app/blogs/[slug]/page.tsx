@@ -2,7 +2,11 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import { detailedBlog } from "../../../data/detailedBlog";
 
-export default function BlogDetail({ params }: { params: { slug: string } }) {
+type Props = {
+  params: { slug: string };
+};
+
+export default function BlogDetail({ params }: Props) {
   const blog = detailedBlog.find((b) => b.slug === params.slug);
 
   if (!blog) return notFound();
