@@ -18,16 +18,16 @@ const Sidebar = () => {
     <main className="flex w-full overflow-hidden justify-center items-center h-screen">
       <section className="flex flex-col justify-center items-center gap-4">
         <Image
-          src="/images/Ankit-ojha.jpg"
+          src="/images/a3.jpeg"
           alt="Ankit Ojha image"
-          width={200}
-          height={200}
-          className="rounded-full border border-gray-800"
+          width={300}
+          height={100}
+          className="rounded-full border border-gray-600"
         />
         <h1 className="font-bold text-3xl font-Doto">Ankit Ojha</h1>
-        <Tags title="Full-Stack Web Developer" icon={""} />
+        <Tags title="Solution Engineer (FDE)" icon={""} />
         <Link
-          href="https://drive.google.com/file/d/1LcNJrA7-XtpRLrCHmkWIoOE01AQHyHRq/view?usp=sharing"
+          href="https://drive.google.com/file/d/1gcXVbEX02NIg7qdfqmFn7TwqtyaMB8lD/view?usp=sharing"
           target="_blank"
           className="w-full"
         >

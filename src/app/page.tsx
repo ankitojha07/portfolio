@@ -44,20 +44,18 @@ const Home = () => {
   return (
     <main className="flex flex-col justify-start gap-4 text-gray-300">
       <p className="text-justify tracking-wide text-md font-sans">
-        Forward-thinking Frontend Web Developer proficient in{" "}
-        <span className="text-teal-600 font-bold italic">
-          {" "}
-          React.js, Next.js, Tailwind CSS, and TypeScript{" "}
-        </span>
-        , with a strong focus on crafting dynamic, user-centric interfaces and
-        optimizing web performance. Experienced in implementing responsive
-        designs, integrating{" "}
-        <span className="text-teal-600 font-bold italic">RESTful APIs </span>,
-        and leveraging modern tools like Webpack and Vite to build scalable and
-        maintainable solutions. Skilled in transforming Figma designs into
-        seamless, interactive web applications tailored to user needs. Excels in
-        collaborating with cross-functional teams to deliver robust and
-        efficient digital experiences
+        Results-oriented Solution Engineer{" "}
+        <span className="font-bold italic">
+          (Forward Deployed Engineer - FDE)
+        </span>{" "}
+        with a strong techno-functional background, specializing in analyzing
+        client requirements, designing robust architectures, and delivering
+        end-to-end solutions across enterprise environments. Skilled in
+        implementing automation workflows and custom system integrations using
+        REST APIs, SFTP, and leading platforms like SAP SuccessFactors. Proven
+        track record of enhancing operational efficiency through scalable,
+        client-centric solutions while maintaining strong stakeholder
+        communication and collaboration.
       </p>
       <p className="font-bold text-start text-xl">What I do?</p>
       <section className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -76,21 +74,9 @@ const Home = () => {
         <ul className="list-disc ml-6 space-y-1">
           <li>Frontend: React, Tailwind CSS, JavaScript, HTML, CSS</li>
           <li>Backend: Node.js, Express, MongoDB</li>
+          <li>Database: Postgres, Drizzle-ORM</li>
           <li>DevOps: Docker, GitHub Actions</li>
           <li>Tools: VS Code, Postman, Figma, Git</li>
-        </ul>
-      </section>
-
-      <section className="my-4">
-        <h2 className="text-2xl font-bold mb-4 text-start">
-          📚 Currently Learning
-        </h2>
-        <ul className="list-disc text-start ml-6 space-y-1">
-          <li>Advanced React patterns</li>
-          <li>Data Structures and Algorithms</li>
-          {/* <li>AWS (SAA-C03 Certification)</li> */}
-          <li>System Design Basics</li>
-          <li>Open Source Contribution</li>
         </ul>
       </section>
 
@@ -104,28 +90,13 @@ const Home = () => {
             exploring scenic routes.
           </li>
           <li>
-            🏔️ <strong>Mountain Travel</strong> – Reconnecting with nature helps
-            me reset and recharge.
+            🏔️ <strong>Travel</strong> – Reconnecting with nature helps me reset
+            and recharge.
           </li>
-          <li>
-            🎮 <strong>Gaming</strong> – I enjoy immersive story-driven and
-            strategy games.
-          </li>
+
           <li>
             📚 <strong>Reading Books</strong> – Whether it`s fiction,
             psychology, or tech, I love reading.
-          </li>
-          <li>
-            📷 <strong>Photography</strong> – Capturing the beauty of places and
-            moments fuels my creativity.
-          </li>
-          <li>
-            🏏 <strong>Watching Cricket</strong> – I`m a passionate cricket fan
-            and rarely miss a big match.
-          </li>
-          <li>
-            👨‍👩‍👧‍👦 <strong>Family & Friends</strong> – I deeply value time spent
-            with loved ones.
           </li>
         </ul>
       </section>

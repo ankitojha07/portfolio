@@ -20,11 +20,11 @@ const Navbar = () => {
       className={`
     sticky top-0 z-20
     w-full
-    flex flex-col gap-6 p-4 transition-all duration-300
+    flex flex-col gap-6 p-0 transition-all duration-300
     ${scrolled ? "bg-black/60 backdrop-blur-md" : "bg-black"}
   `}
     >
-      <ul className="nav flex flex-row gap-2 md:gap-4 lg:gap-8 justify-center lg:justify-end items-center font-semibold md:text-xl text-sm flex-nowrap whitespace-nowrap overflow-x-auto">
+      <ul className="nav flex flex-row gap-6 md:gap-4 lg:gap-8 justify-center lg:justify-end items-center font-semibold md:text-xl text-sm flex-nowrap whitespace-nowrap overflow-x-auto">
         <li>
           <Link href="/">Home</Link>
           <div
@@ -61,7 +61,7 @@ const Navbar = () => {
             } `}
           ></div>
         </li>
-        <li>
+        {/* <li>
           <Link href="/testimonials">Testimonials</Link>
           <div
             className={`${
@@ -70,7 +70,7 @@ const Navbar = () => {
                 : " hidden"
             } `}
           ></div>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
