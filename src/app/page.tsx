@@ -34,12 +34,7 @@ const Home = () => {
       description:
         "Building robust and maintainable RESTful APIs using Django REST Framework and Node.js, tailored for high-performance applications.",
     },
-    {
-      icon: "🧠",
-      title: "Competitive Programming",
-      description:
-        "Consistent problem solver on HackerRank and LeetCode, sharpening algorithmic thinking and coding efficiency through daily practice.",
-    },
+
     {
       icon: "🎨",
       title: "UI/UX Design",
