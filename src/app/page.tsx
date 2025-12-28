@@ -5,6 +5,18 @@ import Image from "next/image";
 const Home = () => {
   const tasks = [
     {
+      icon: "💡",
+      title: "Solution Engineering",
+      description:
+        "Engineering practical and scalable solutions for complex business problems using modern tech stacks and best practices in software development.",
+    },
+    {
+      icon: "🔗",
+      title: "API Integration",
+      description:
+        "Seamlessly integrating third-party APIs such as RESTful services and GraphQL to enhance application functionality and user experience.",
+    },
+    {
       icon: "🚀",
       title: "Frontend Development",
       description:
@@ -33,12 +45,6 @@ const Home = () => {
       title: "UI/UX Design",
       description:
         "Designing stunning, user-centric interfaces using Figma and Framer, blending aesthetics with usability for seamless user experiences.",
-    },
-    {
-      icon: "💡",
-      title: "Solution Engineering",
-      description:
-        "Engineering practical and scalable solutions for complex business problems using modern tech stacks and best practices in software development.",
     },
   ];
   return (
