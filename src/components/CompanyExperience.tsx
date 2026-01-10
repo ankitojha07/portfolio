@@ -6,7 +6,7 @@ const CompanyExperience = () => {
       <div className="intern-exp flex flex-col gap-2">
         <div className="company-details">
           <p className="font-bold text-lg text-gray-300">
-            Frontend Developer <span>|</span>{" "}
+            Solution Engineer <span>|</span>{" "}
             <span className="font-bold text-sm text-blue-500">
               <a href="https://www.leena.ai/" target="_blank">
                 Leena AI Inc.
@@ -21,20 +21,51 @@ const CompanyExperience = () => {
         <ul className="list-disc pl-5 text-sm text-gray-500">
           {" "}
           <li>
-            Worked on scalable web applications using React.js, Next.js, and
-            TypeScript, improving UI performance and maintainability.
+            Led end-to-end implementation of AI-driven chatbots and voice bots,
+            including requirement gathering, solution design, configuration,
+            deployment, and client onboarding, ensuring high adoption and
+            measurable business impact.
           </li>
           <li>
-            Collaborated with cross-functional teams to integrate RESTful APIs
-            and deliver responsive, accessible, and SEO-friendly interfaces.
+            Designed and optimized enterprise-grade conversational workflows by
+            mapping business processes, writing/testing prompt logic, and
+            applying NLP techniques to improve intent recognition and reduce
+            fallback responses..
           </li>
           <li>
-            Implemented dynamic features such as form builders, dashboard views,
-            and workflow configurations using component-driven architecture.
+            Deployed Voice AI agents for high-volume use cases, enhancing
+            customer engagement, reducing manual intervention, and handling
+            thousands of conversations daily.
           </li>
           <li>
-            Refactored legacy components to modular, reusable code using Redux
-            and modern React hooks.
+            Integrated AI agents with third-party platforms (e.g., HRMS,
+            ticketing systems, SuccessFactors, SFTP servers) via RESTful APIs
+            and custom connectors, ensuring seamless data flow across systems.
+          </li>
+          <li>
+            Conducted rigorous testing, debugging, and performance tuning of AI
+            solutions, ensuring accuracy, scalability, and reliable performance
+            in production environments.
+          </li>
+          <li>
+            Partnered with stakeholders, product teams, and engineering to
+            gather requirements, resolve technical challenges, and align
+            solutions with strategic goals.
+          </li>
+          <li>
+            Collaborated with VPs and senior executives to provide client
+            feedback, shape the AI product roadmap, and influence feature
+            development for long-term scalability.
+          </li>
+          <li>
+            Designed automated workflows for HR and IT processes (onboarding,
+            offboarding, employee lifecycle), streamlining operations and
+            reducing support resolution times.
+          </li>
+          <li>
+            Delivered client training and enablement sessions, ensuring smooth
+            onboarding and empowering business teams to manage AI-driven
+            workflows effectively.
           </li>
         </ul>
       </div>

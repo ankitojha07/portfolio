@@ -43,7 +43,7 @@ const Resume = () => {
         </section>
 
         {/* Right Section */}
-        <section className="grid col-span-1 md:col-span-5 text-start gap-8">
+        <section className="grid col-span-1 md:col-span-12 text-start gap-8">
           <div className="flex flex-col gap-2">
             <p className="font-bold text-lg text-gray-300">Education</p>
             <EducationComponent />
@@ -51,7 +51,7 @@ const Resume = () => {
         </section>
 
         {/* bottom section  */}
-        <section className="grid col-span-1 md:col-span-3 text-start gap-8">
+        <section className="grid col-span-1 md:col-span-2 text-start gap-8">
           <p className="font-bold text-lg">Languages and Frameworks</p>
           <div className="flex flex-col gap-4">
             {lang_frameworks.map((skill, index) => (
