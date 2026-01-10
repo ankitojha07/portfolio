@@ -26,59 +26,67 @@ const Resume = () => {
   ];
   return (
     <main className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
-      {/* Left Section */}
-      <div className="grid col-span-1 md:col-span-12 gap-8">
-        <section className="grid col-span-1 md:col-span-5 text-start gap-8">
-          <div className="flex flex-col gap-2">
+      {/* Stack Experience and Education full-width, then three equal columns below */}
+      <div className="col-span-1 md:col-span-12">
+        <div className="grid gap-8">
+          <section className="w-full text-start">
             <p className="font-semibold text-lg">Experience</p>
+            <div className="mt-2">
+              <CompanyExperience />
+            </div>
+          </section>
 
-            {/* Experience card start */}
-            <CompanyExperience />
-            {/* exp card end  */}
-
-            {/* Experience card start */}
-
-            {/* exp card end  */}
-          </div>
-        </section>
-
-        {/* Right Section */}
-        <section className="grid col-span-1 md:col-span-12 text-start gap-8">
-          <div className="flex flex-col gap-2">
+          <section className="w-full text-start">
             <p className="font-bold text-lg text-gray-300">Education</p>
-            <EducationComponent />
-          </div>
-        </section>
+            <div className="mt-2">
+              <EducationComponent />
+            </div>
+          </section>
 
-        {/* bottom section  */}
-        <section className="grid col-span-1 md:col-span-2 text-start gap-8">
-          <p className="font-bold text-lg">Languages and Frameworks</p>
-          <div className="flex flex-col gap-4">
-            {lang_frameworks.map((skill, index) => (
-              <ProgressBar
-                key={index}
-                name={skill.name}
-                percentage={skill.percentage}
-              />
-            ))}
+          {/* bottom: full width container; stacks on small, 3 equal columns on md+ */}
+          <div className="w-full flex flex-col md:flex-row gap-12">
+            <section className="mb-8 md:w-1/3">
+              <p className="font-bold text-lg">Languages and Frameworks</p>
+              <div className="flex flex-col gap-4 mt-2">
+                {lang_frameworks.map((skill, index) => (
+                  <ProgressBar
+                    key={index}
+                    name={skill.name}
+                    percentage={skill.percentage}
+                  />
+                ))}
+              </div>
+            </section>
+
+            <section className="mb-8 md:w-1/3">
+              <p className="font-bold text-lg text-gray-300">
+                Tools & Softwares
+              </p>
+              <div className="flex flex-col gap-4 mt-2">
+                {skills.map((skill, index) => (
+                  <ProgressBar
+                    key={index}
+                    name={skill.name}
+                    percentage={skill.percentage}
+                  />
+                ))}
+              </div>
+            </section>
+
+            <section className="mb-8 md:w-1/3">
+              <p className="font-bold text-lg text-gray-300">Database</p>
+              <div className="flex flex-col gap-4 mt-2">
+                {skills.map((skill, index) => (
+                  <ProgressBar
+                    key={index}
+                    name={skill.name}
+                    percentage={skill.percentage}
+                  />
+                ))}
+              </div>
+            </section>
           </div>
-        </section>
-        <section className="grid col-span-1 md:col-span-2 text-start gap-8">
-          <p className="font-bold text-lg text-gray-300">Tools & Softwares</p>
-          <p className="text-gray-500">
-            These are the tool on which I am confident enough to design or build
-            something.
-          </p>
-          <div className="flex flex-col gap-4">
-            {skills.map((skill, index) => (
-              <ProgressBar
-                key={index}
-                name={skill.name}
-                percentage={skill.percentage}
-              />
-            ))}
-          </div>
-        </section>
+        </div>
       </div>
     </main>
   );

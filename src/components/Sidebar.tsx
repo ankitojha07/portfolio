@@ -20,9 +20,9 @@ const Sidebar = () => {
         <Image
           src="/images/a3.jpeg"
           alt="Ankit Ojha image"
-          width={300}
+          width={200}
           height={100}
-          className="rounded-full border border-gray-600"
+          className="rounded-full border border-gray-600 mt-10"
         />
         <h1 className="font-bold text-3xl font-Doto">Ankit Ojha</h1>
         <Tags title="Solution Engineer (FDE)" icon={""} />
