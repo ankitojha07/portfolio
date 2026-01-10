@@ -7,7 +7,7 @@ const CompanyExperience = () => {
         <div className="company-details">
           <p className="font-bold text-lg text-gray-300">
             Solution Engineer <span>|</span>{" "}
-            <span className="font-bold text-sm text-blue-500">
+            <span className="font-bold text-sm text-blue-400">
               <a href="https://www.leena.ai/" target="_blank">
                 Leena AI Inc.
               </a>
@@ -18,29 +18,32 @@ const CompanyExperience = () => {
             <p className="text-sm italic text-gray-400">(Aug`2024 - Present)</p>
           </div>
         </div>
-        <ul className="list-disc pl-5 text-sm text-gray-500">
+        <ul className="list-disc pl-5 text-sm text-gray-400">
           {" "}
           <li>
-            Led end-to-end implementation of AI-driven chatbots and voice bots,
+            Led end-to-end implementation of{" "}
+            <span className="font-bold italic text-white">
+              AI-driven chatbots and voice bots
+            </span>{" "}
             including requirement gathering, solution design, configuration,
             deployment, and client onboarding, ensuring high adoption and
             measurable business impact.
           </li>
           <li>
-            Designed and optimized enterprise-grade conversational workflows by
-            mapping business processes, writing/testing prompt logic, and
+            Designed and optimized enterprise-grade{" "}
+            <span className="font-bold italic text-white">
+              {" "}
+              conversational workflows{" "}
+            </span>{" "}
+            by mapping business processes, writing/testing prompt logic, and
             applying NLP techniques to improve intent recognition and reduce
             fallback responses..
           </li>
           <li>
-            Deployed Voice AI agents for high-volume use cases, enhancing
-            customer engagement, reducing manual intervention, and handling
-            thousands of conversations daily.
-          </li>
-          <li>
-            Integrated AI agents with third-party platforms (e.g., HRMS,
-            ticketing systems, SuccessFactors, SFTP servers) via RESTful APIs
-            and custom connectors, ensuring seamless data flow across systems.
+            Built and deployed{" "}
+            <span className="font-bold italic text-white">Agentic AI </span>{" "}
+            systems enabling autonomous decision-making and multi-step task
+            execution across enterprise workflows.
           </li>
           <li>
             Conducted rigorous testing, debugging, and performance tuning of AI
@@ -51,16 +54,6 @@ const CompanyExperience = () => {
             Partnered with stakeholders, product teams, and engineering to
             gather requirements, resolve technical challenges, and align
             solutions with strategic goals.
-          </li>
-          <li>
-            Collaborated with VPs and senior executives to provide client
-            feedback, shape the AI product roadmap, and influence feature
-            development for long-term scalability.
-          </li>
-          <li>
-            Designed automated workflows for HR and IT processes (onboarding,
-            offboarding, employee lifecycle), streamlining operations and
-            reducing support resolution times.
           </li>
           <li>
             Delivered client training and enablement sessions, ensuring smooth
@@ -74,7 +67,7 @@ const CompanyExperience = () => {
         <div className="company-details">
           <p className="font-bold text-lg text-gray-300">
             Intern <span>|</span>{" "}
-            <span className="font-bold text-sm text-blue-500">
+            <span className="font-bold text-sm text-blue-400">
               <a href="https://www.leena.ai/" target="_blank">
                 Leena AI Inc.
               </a>
@@ -86,7 +79,7 @@ const CompanyExperience = () => {
           </div>
         </div>
 
-        <ul className="list-disc pl-5 text-sm text-gray-500">
+        <ul className="list-disc pl-5 text-sm text-gray-400">
           {" "}
           <li>
             Developed and optimized JavaScript workflows to filter, clean, and
