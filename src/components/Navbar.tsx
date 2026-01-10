@@ -34,7 +34,7 @@ const Navbar = () => {
           ></div>
         </li>
         <li>
-          <Link href="/resume">About Me</Link>
+          <Link href="/Resume">About Me</Link>
           <div
             className={`${
               pathname === "/resume"

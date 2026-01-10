@@ -51,7 +51,7 @@ const Resume = () => {
         </section>
 
         {/* bottom section  */}
-        <section className="grid col-span-1 md:col-span-5 text-start gap-8">
+        <section className="grid col-span-1 md:col-span-3 text-start gap-8">
           <p className="font-bold text-lg">Languages and Frameworks</p>
           <div className="flex flex-col gap-4">
             {lang_frameworks.map((skill, index) => (
@@ -63,7 +63,7 @@ const Resume = () => {
             ))}
           </div>
         </section>
-        <section className="grid col-span-1 md:col-span-5 text-start gap-8">
+        <section className="grid col-span-1 md:col-span-2 text-start gap-8">
           <p className="font-bold text-lg text-gray-300">Tools & Softwares</p>
           <p className="text-gray-500">
             These are the tool on which I am confident enough to design or build

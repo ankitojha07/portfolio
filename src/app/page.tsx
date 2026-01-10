@@ -28,12 +28,6 @@ const Home = () => {
       description:
         "Designing and maintaining efficient, secure APIs using Node.js and Express, with a strong emphasis on clean architecture and scalability.",
     },
-    {
-      icon: "🔗",
-      title: " API Development",
-      description:
-        "Building robust and maintainable RESTful APIs using Django REST Framework and Node.js, tailored for high-performance applications.",
-    },
 
     {
       icon: "🎨",
@@ -74,10 +68,9 @@ const Home = () => {
         <h2 className="text-xl font-bold mb-4">🛠️ Tech Stack</h2>
         <ul className="list-disc ml-6 space-y-1">
           <li>Frontend: React, Tailwind CSS, JavaScript, HTML, CSS</li>
-          <li>Backend: Node.js, Express, MongoDB</li>
-          <li>Database: Postgres, Drizzle-ORM</li>
-          <li>DevOps: Docker, GitHub Actions</li>
-          <li>Tools: VS Code, Postman, Figma, Git</li>
+          <li>Backend: Node.js, Express </li>
+          <li>Database: Postgres,MongoDB, Drizzle-ORM</li>
+          <li>Tools: Docker, GitHub,VS Code, Postman, Figma, Git</li>
         </ul>
       </section>
 
@@ -87,10 +80,6 @@ const Home = () => {
         </h2>
         <ul className="list-disc text-start ml-6 space-y-2">
           <li>
-            🏍️ <strong>Bike Riding</strong> – I love hitting the road and
-            exploring scenic routes.
-          </li>
-          <li>
             🏔️ <strong>Travel</strong> – Reconnecting with nature helps me reset
             and recharge.
           </li>
@@ -98,6 +87,9 @@ const Home = () => {
           <li>
             📚 <strong>Reading Books</strong> – Whether it`s fiction,
             psychology, or tech, I love reading.
+          </li>
+          <li>
+            <strong> And,</strong> Netflixxxxxxx
           </li>
         </ul>
       </section>
