@@ -5,24 +5,25 @@ import React from "react";
 
 const Resume = () => {
   const lang_frameworks = [
-    { name: "JavaScript", percentage: 90 },
-    { name: "React JS", percentage: 90 },
-    { name: "Next JS", percentage: 70 },
-    { name: "Node.js", percentage: 90 },
-    { name: "Typescript", percentage: 70 },
-    { name: "CSS3", percentage: 90 },
-    { name: "HTML5", percentage: 90 },
-    { name: "C++", percentage: 90 },
-    { name: "Python", percentage: 90 },
+    { name: "JavaScript/Node.js", percentage: 90 },
+    { name: "React/Next", percentage: 90 },
+    { name: "HTML/CSS", percentage: 60 },
+    { name: "C++", percentage: 70 },
+    { name: "Python", percentage: 50 },
   ];
 
-  const skills = [
-    { name: "AWS Cloud", percentage: 50 },
-    { name: "Chat GPT", percentage: 99 },
-    { name: "Kore.AI", percentage: 70 },
-    { name: "Figma", percentage: 100 },
-    { name: "Canva", percentage: 100 },
-    { name: "Integreations", percentage: 80 },
+  const tools = [
+    { name: "Postman", percentage: 80 },
+    { name: "Docker", percentage: 80 },
+    { name: "n8n", percentage: 40 },
+    { name: "AWS Cloud", percentage: 30 },
+    { name: "Git and GitHub", percentage: 80 },
+  ];
+
+  const databases = [
+    { name: "PostgreSQL", percentage: 50 },
+    { name: "MongoDb", percentage: 99 },
+    { name: "MySQL", percentage: 70 },
   ];
   return (
     <main className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
@@ -63,7 +64,7 @@ const Resume = () => {
                 Tools & Softwares
               </p>
               <div className="flex flex-col gap-4 mt-2">
-                {skills.map((skill, index) => (
+                {tools.map((skill, index) => (
                   <ProgressBar
                     key={index}
                     name={skill.name}
@@ -74,9 +75,9 @@ const Resume = () => {
             </section>
 
             <section className="mb-8 md:w-1/3">
-              <p className="font-bold text-lg text-gray-300">Database</p>
+              <p className="font-bold text-lg text-gray-300">Databases</p>
               <div className="flex flex-col gap-4 mt-2">
-                {skills.map((skill, index) => (
+                {databases.map((skill, index) => (
                   <ProgressBar
                     key={index}
                     name={skill.name}
