@@ -75,7 +75,7 @@ const page = () => {
     },
     {
       image: "/images/projects/image-travel-mate.png",
-      title: "Travel Mate Android App",
+      title: "Travel Mate - Android App",
       url: "https://github.com/ankitojha07/The_Travel_Mate",
     },
     {
